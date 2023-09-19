@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="442dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Click Here"
+        android:textColor="#FFFAFA" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#8A90CD"
+        android:includeFontPadding="true"
+        android:paddingTop="0dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColorLink="#EC4AF8"
+        android:textSize="34sp"
+        android:textColor="@color/pink"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
